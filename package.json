@@ -1,0 +1,36 @@
+{
+  "name": "sq_koa_api",
+  "version": "1.0.0",
+  "description": "test api for acorn",
+  "main": "server.js",
+  "scripts": {
+    "cli": "node_modules/.bin/sequelize db:migrate",
+    "start": "nodemon server.js"
+  },
+  "author": "ppk",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "@sendgrid/mail": "^6.3.1",
+    "bcrypt": "^5.0.0",
+    "e": "0.0.4",
+    "formidable-upload-koa": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.6.2",
+    "koa-body": "^4.1.0",
+    "koa-ctx-paginate": "0.0.3",
+    "koa-formidable": "^1.1.0",
+    "koa-jwt": "^3.5.1",
+    "koa-multer": "^1.0.2",
+    "koa-parser": "^1.0.5",
+    "koa-router": "^7.4.0",
+    "koa-router-multer": "^1.3.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "koa2-formidable": "^1.0.2",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.6",
+    "sequelize": "^4.41.2",
+    "sequelize-cli": "^5.3.0"
+  }
+}
